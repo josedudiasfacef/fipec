@@ -1,0 +1,40 @@
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center; /* Alinha o conteúdo horizontalmente à direita */
+  align-items: center; /* Alinha o conteúdo verticalmente à direita */
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+* {
+  font-family: "Anton", sans-serif;
+}
+
+p {
+  color: red;
+}
+
+h2 {
+  color: blue;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
